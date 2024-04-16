@@ -1,0 +1,23 @@
+segment_length: 60
+live_fps: 2
+font_file: "Montserrat-Bold.ttf"  # Relative path to the main.py script
+log_lines: 100
+
+# False = None, hog, yolo
+human_detection_plugin: false # WIP... Doesnt quite work well yet.
+
+# Use generate_user_password.py to generate the hashed password
+# Below is "Test123"
+users: 
+  - username: "TestAccount"
+    password_hashed: "scrypt:32768:8:1$MbMlliGVHdNImBD6$616e9de798906e6c824182ac5aaa93b8b644d01a9309caec4785f1bcdf2be0db76b8a94047fb20d981fadbd50b7de25eeb2c3ac86a408e3da65adba58aafb30b"
+
+cameras:
+  - name: Back Garden
+    rtsp_address: "rtsp://1.1.1.1:554/channel=1_stream=0.sdp"
+  - name: Front Drive
+    rtsp_address: "rtsp://1.1.1.1:554/channel=2_stream=0.sdp"
+  - name: Rear Alley
+    rtsp_address: "rtsp://1.1.1.1:554/channel=3_stream=0.sdp"
+  - name: Front Door
+    rtsp_address: "rtsp://1.1.1.1:554/channel=4_stream=0.sdp"
