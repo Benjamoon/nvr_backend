@@ -5,3 +5,15 @@ A self signed one will usually work well enough.
 ```openssl req -x509 -newkey rsa:4096 -nodes -out cert.pem -keyout key.pem -days 365```
 
 You can use any other one though from an authority :)
+
+# Install
+```pip install -r requirements.txt```
+
+Also FFMPEG
+
+# Linux
+```sudo apt install ffmpeg```
+
+# Windows
+
+Why are you running this on windows?? Download the installer i guess...
