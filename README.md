@@ -11,9 +11,32 @@ You can use any other one though from an authority :)
 
 Also FFMPEG
 
-# Linux
+## Linux
 ```sudo apt install ffmpeg```
 
-# Windows
+## Windows
 
 Why are you running this on windows?? Download the installer i guess...
+
+# Run
+
+```python main.py```
+
+# Use
+
+Either host the frontend too, or use nvr.h0st.uk
+
+Enter the creds from config.yaml and it should connect :)
+
+# API
+
+API is accessible at port 5000.
+
+Might work on some docs for this at somepoint, but its pretty simple
+
+/cameras - returns cameras
+/cameras/{cam_name} - returns the data for that camera
+
+/cameras/{cam_name}/live - returns refreshing snapshot
+
+/recordings/* - Returns the recordins directory (if mp4 is requested, will return the clip)
