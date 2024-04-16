@@ -1,3 +1,5 @@
 recordings
 live
 config.yaml
+cert.pem
+key.pem

@@ -108,4 +108,4 @@ class WebServer:
 
     def _run_server(self):
         while self.running.is_set():
-            self.app.run(host=self.host, port=self.port, threaded=True, use_reloader=False)
+            self.app.run(host=self.host, port=self.port, threaded=True, use_reloader=False, ssl_context=('cert.pem', 'key.pem'))
