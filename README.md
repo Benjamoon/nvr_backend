@@ -1,3 +1,12 @@
+# What is this
+
+A super simple NVR setup that takes in rtsp streams, records and outputs a live snapshot for them.
+Also overlays a timestamp and the camera name on the stream
+
+# Future?
+
+Theres a simple plugin system that acts on the live snapshots. I would like some sort of human detection system in the future.
+
 # Certi
 
 To access this from a https frontend (such as the one hosted at nvr.h0st.uk) you will need a certificate.
