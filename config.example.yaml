@@ -3,6 +3,8 @@ live_fps: 2
 font_file: "Montserrat-Bold.ttf"  # Relative path to the main.py script
 log_lines: 100
 
+max_size: 300 #Size in GB to start deleting some files at (deletes the oldest first)
+
 # False = None, hog, yolo
 human_detection_plugin: false # WIP... Doesnt quite work well yet.
 
